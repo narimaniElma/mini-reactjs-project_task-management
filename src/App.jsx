@@ -69,7 +69,7 @@ function App() {
       <main className="container pb-25">
         <div id="headline" className="space-y-3">
           <h1 className="title">
-            <img src="./assets/images/hourglass.png" className="size-8" />
+            {/* <img src="./assets/images/hourglass.png" className="size-8" /> */}
             <span> مدیریت و برنامه ریزی </span>
           </h1>
         </div>
