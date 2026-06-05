@@ -24,7 +24,7 @@ const Modal = ({ onClose, handleAddTask }) => {
             ایجاد برنامه جدید
           </span>
           <div className="btns *:size-3.5 *:cursor-pointer *:rounded-full" onClick={onClose}>
-            <button id="modal-close-button"></button>
+            <button id="modal-close-button">×</button>
           </div>
         </header>
         <main className="my-5 space-y-3">
@@ -51,7 +51,7 @@ const Modal = ({ onClose, handleAddTask }) => {
           <div className="info-message">
             <p className="inline-flex! items-center gap-1">
               <img
-                src="./images/check.png"
+                src="./assets/images/check.png"
                 alt="Checked"
                 className="size-4"
               />

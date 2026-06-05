@@ -1309,6 +1309,10 @@ h3 {
 
 #modal-close-button {
   background-color: #de4d3b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
 }
 
 label {
