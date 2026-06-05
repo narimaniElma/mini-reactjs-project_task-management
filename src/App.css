@@ -939,6 +939,7 @@ h3 {
 .dd-btn {
   display: flex;
   width: 100%;
+  height: calc(var(--spacing) * 10);
   cursor: pointer;
   align-items: center;
   justify-content: center;
