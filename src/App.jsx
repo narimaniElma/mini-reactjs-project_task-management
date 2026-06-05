@@ -35,8 +35,10 @@ function App() {
   }
 
   const handleRemoveTask = (id) => {
-    const newTasks = tasks.filter(task => task.id !== id)
-    setTasks(newTasks)
+    const updatedTasks = tasks.filter(task => task.id !== id)
+    setTasks(updatedTasks)
+
+    localStorage.setItem('todos', JSON.stringify(updatedTasks))
   }
 
   const completeTask = (id) => {
