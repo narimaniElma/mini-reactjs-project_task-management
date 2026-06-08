@@ -50,11 +50,11 @@ const Modal = ({ onClose, handleAddTask }) => {
           </div>
           <div className="info-message">
             <p className="inline-flex! items-center gap-1">
-              <img
+              {/* <img
                 src="./assets/images/check.png"
                 alt="Checked"
                 className="size-4"
-              />
+              /> */}
               <span> لطفا تمامی فیلد هارا تکمیل بفرمایید </span>
             </p>
           </div>
